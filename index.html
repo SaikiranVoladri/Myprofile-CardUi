@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Ui Card Hactober-2022 </title>
+      <link rel="stylesheet" href="index.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+      <div class="container">
+         <div class="wrapper">
+            <a href="#">
+            <img src="/assets/profile photo.jpg" alt="profile photo">
+            </a>
+            <div class="title">
+               Saikiran Voladri
+            </div>
+            <div class="place">
+               Hyderabad, Telangana
+            </div>
+         </div>
+         <div class="content">
+            <p>
+               Web developer and <br>front-end developer
+            </p>
+            <div class="buttons">
+               <div class="btn">
+                <a href="https://www.instagram.com/voladrisaikiran/"><button>Message</button>
+               </div>
+               <div class="btn">
+                <a href="https://github.com/SaikiranVoladri"> <button>Follow</button></a>
+               </div>
+            </div>
+         </div>
+         <div class="icons">
+            <li><a href="https://www.linkedin.com/in/saikiran-voladri"><span class="fab fa-linkedin-in"></span></a></li>
+            <li><a href="https://github.com/SaikiranVoladri"><span class="fab fa-github"></span></a></li>
+            <li><a href="https://www.facebook.com/saikiran.voladri.7"><span class="fab fa-facebook-f"></span></a></li>
+            <li><a href="https://twitter.com/VoladriSaikiran"><span class="fab fa-twitter"></span></a></li>
+            <li><a href="https://www.instagram.com/voladrisaikiran/"><span class="fab fa-instagram"></span></a></li>
+         </div>
+      </div>
+      <script>
+         const img = document.querySelector("img");
+         const icons = document.querySelector(".icons");
+         img.onclick = function(){
+           this.classList.toggle("active");
+           icons.classList.toggle("active");
+         }
+      </script>
+   </body>
+</html>
+
