@@ -7,6 +7,9 @@ body{
   font-family: 'Poppins',sans-serif;
   padding: 50px;
   text-align: center;  
+  background: url("/assets/background.jpg");
+  width: 550px;
+
 }
 
 /* styling main section */
